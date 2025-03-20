@@ -1,4 +1,9 @@
+span {
+  color: yellow;
+}
+
 .onFocus {
+  color: white;
   background-color: green;
 }
 

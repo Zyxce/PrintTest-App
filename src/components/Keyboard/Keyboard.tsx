@@ -1,4 +1,4 @@
-import React, { useEffect, useState, Dispatch, SetStateAction } from 'react'
+import React, { useEffect, Dispatch, SetStateAction } from 'react'
 import style from './Keyboard.module.css'
 
 const keyboardLayout: string[][] = [
@@ -48,7 +48,7 @@ const Keyboard: React.FC<IProps> = (props) => {
       case 'Alt':
         return 'Alt'
       default:
-        return key.toUpperCase()
+        return key
     }
   }
 
@@ -74,7 +74,7 @@ const Keyboard: React.FC<IProps> = (props) => {
       window.removeEventListener('keydown', handleKeyDown)
       window.removeEventListener('keyup', handleKeyUp)
     }
-  }, [])
+  }, [toggleActiveKey])
 
   return (
     <div className={style.keyboardContainer}>

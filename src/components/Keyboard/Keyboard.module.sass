@@ -1,5 +1,7 @@
 
 .keyboardContainer
+    --rot-x: 25deg
+    --rot-y: 0deg
     display: flex
     flex-direction: column
     align-items: center
@@ -7,6 +9,8 @@
     background: #1e1e1e
     border-radius: 10px
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5)
+    margin-top: 100px
+    transform: perspective(1200px) rotateX(var(--rot-x)) rotateY(var(--rot-y))
 
 .keyboardRow
     display: flex
@@ -16,8 +20,8 @@
     display: flex
     justify-content: center
     align-items: center
-    width: 50px
-    height: 50px
+    width: 30px
+    height: 30px
     background: #333
     color: white
     font-size: 1.2rem
