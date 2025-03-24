@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/PrintTest-App/static/css/main.4a307f80.css",
+    "main.js": "/PrintTest-App/static/js/main.a2bae9f6.js",
+    "index.html": "/PrintTest-App/index.html",
+    "main.4a307f80.css.map": "/PrintTest-App/static/css/main.4a307f80.css.map",
+    "main.a2bae9f6.js.map": "/PrintTest-App/static/js/main.a2bae9f6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a307f80.css",
+    "static/js/main.a2bae9f6.js"
+  ]
+}
