@@ -1,0 +1,159 @@
+.monitorContainer
+    width: 750px
+    height: 350px
+    margin: 50px auto 0px auto
+    position: relative
+    transform: perspective(1200px) rotateX(var(--rot-x)) rotateY(var(--rot-y))
+    --rot-x: -5deg
+    --rot-y: 0deg
+    z-index: 1
+
+    .monitorScreen
+        background-color: #1F1F1F
+        width: 750px
+        height: 350px
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+        border: 2px solid hsla(0, 0%, 25%, 0.2)
+        z-index: 2
+        overflow: hidden
+        padding-bottom: 20px // Отступ для панели
+        .monitorApp
+            height: 100%
+            .monitorAppPanel
+                height: 15px
+                width: 100%
+                background-color: #3523A9
+                display: flex
+                align-items: center
+                justify-content: space-between
+                .panelIcon
+                    color: white
+                    padding: 10px
+                    &:last-child
+                        color: red
+            .monitorConsolePanel
+                position: absolute
+                width: 100%
+                bottom: 15px
+                background-color: #1F1F1F
+                border-top: 1px solid #353535
+                display: flex
+                p
+                    padding: 5px 10px
+                    font-size: 0.8rem
+                    color: #797878
+            .monitorAppContent
+                height: 100%
+                display: flex
+                .monitorAppContentRight
+                    width: 100%
+                    position: relative
+                    text-align: start
+                    .monitorAppContentCode
+                        color: #2f75f7
+                        span
+                            color: #797878
+                        .monitorAppContentCodeSpan
+                            color: #e06a34
+
+                    .monitorAppBottom
+                        display: flex
+                        position: absolute
+                        bottom: 50px
+                        gap: 60px
+
+    .monitorHull
+        position: absolute
+        width: 800px
+        height: 400px
+        border-top-left-radius: 16px
+        border-top-right-radius: 16px
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+        z-index: 1
+        background-color: #141414
+        border: 2px solid hsla(0, 0%, 25%, 0.2)
+        box-shadow: -5px -5px 10px hsl(0%, 0%, 100%, 0.01),-2px -2px 6px hsl(0%, 0%, 100%, 0.03),2px 2px 5px hsl(0, 0%, 0%, 0.3), 5px 5px 10px hsl(0, 0%, 0%, 0.3)
+
+    .monitorBottom
+        position: absolute
+        display: flex
+        justify-content: space-between
+        width: 800px
+        height: 50px
+        border-bottom-left-radius: 16px
+        border-bottom-right-radius: 16px
+        bottom: -80px
+        left: 50%
+        transform: translate(-50%, 0%)
+        z-index: 3
+        background-color: #353535
+        border: 2px solid hsla(0, 0%, 25%, 0.2)
+        box-shadow: -5px -5px 10px hsl(0%, 0%, 100%, 0.01),-2px -2px 6px hsl(0%, 0%, 100%, 0.03),2px 2px 5px hsl(0, 0%, 0%, 0.3), 5px 5px 10px hsl(0, 0%, 0%, 0.3)
+
+        .monitorLogo
+            display: flex
+            width: 100px
+            margin: auto 0 auto 15px
+        .logoIcon
+            color: #27DEBF
+        p
+            font-size: 1.4rem
+            color: #979797
+            margin: auto 0 auto 5px
+
+        .monitorBottomBtn
+            border: 3px solid #27DEBF
+            background-color: #2A2A2A
+            border-radius: 50%
+            margin: auto 0
+            width: 20px
+            height: 20px
+
+        .monitorBottomNull
+            width: 100px
+
+    .monitorStand
+        position: absolute
+        background-color: #141414
+        height: 100px
+        width: 30px
+        bottom: -130px
+        left: 51%
+        transform: translate(-50%, 0%)
+        z-index: 0
+        border-left: 2px solid hsla(0, 0%, 25%, 0.2)
+        border-right: 2px solid hsla(0, 0%, 25%, 0.2)
+        box-shadow: -5px -5px 10px hsl(0%, 0%, 100%, 0.01),-2px -2px 6px hsl(0%, 0%, 100%, 0.03),2px 2px 5px hsl(0, 0%, 0%, 0.3), 5px 5px 10px hsl(0, 0%, 0%, 0.3)
+    .monitorStandBottom1
+        position: absolute
+        background-color: #1b1b1b
+        border: 2px solid hsla(0, 0%, 25%, 0.2)
+        box-shadow: -5px -5px 10px hsl(0%, 0%, 100%, 0.01),-2px -2px 6px hsl(0%, 0%, 100%, 0.03),2px 2px 5px hsl(0, 0%, 0%, 0.3), 5px 5px 10px hsl(0, 0%, 0%, 0.3)
+        height: 40px
+        width: 150px
+        bottom: -153px
+        left: 41%
+        transform: translate(-50%, -50%)
+        z-index: -2
+        transform: perspective(1200px) rotateX(var(--rot-x)) rotateY(var(--rot-y))
+        --rot-x: 60deg
+        --rot-y: 0deg
+    .monitorStandBottom2
+        position: absolute
+        background-color: #252525
+        border: 2px solid hsla(0, 0%, 25%, 0.2)
+        box-shadow: -5px -5px 10px hsl(0%, 0%, 100%, 0.01),-2px -2px 6px hsl(0%, 0%, 100%, 0.03),2px 2px 5px hsl(0, 0%, 0%, 0.3), 5px 5px 10px hsl(0, 0%, 0%, 0.3)
+        height: 10px
+        width: 150px
+        bottom: -155px
+        left: 41%
+        transform: translate(-50%, -50%)
+        z-index: -2
+        transform: perspective(1200px) rotateX(var(--rot-x)) rotateY(var(--rot-y))
+        --rot-x: -25deg
+        --rot-y: 0deg

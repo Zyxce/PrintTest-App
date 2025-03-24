@@ -1,9 +1,12 @@
 import React, { useEffect, useRef, useState } from 'react'
+import { FaCode, FaLaptopCode, FaTimes } from 'react-icons/fa'
 import style from './Monitor.module.css'
 import TextTable from './TextTable'
 import textArray from '../../data/textArrayData.json'
 import ErrorsPercent from './ErrorsPercent'
 import PrintSpeedTimer from './PrintSpeedTimer'
+import SreenPanel from './SсreenPanel'
+import LeftPanel from './LeftPanel'
 
 interface IProps {
   activeKey: Set<string>
@@ -88,20 +91,67 @@ const Monitor: React.FC<IProps> = ({ activeKey, onKeyProcessed }) => {
 
   return (
     <div className={style.monitorContainer}>
-      <TextTable
-        errorIndex={errorIndex}
-        currentIndex={currentIndex}
-        letters={letters}
-      />
-      <ErrorsPercent textLength={letters.length} errorsCount={errorsCount} />
-      <PrintSpeedTimer
-        currentTime={currentTime}
-        startTime={startTime}
-        currentIndex={currentIndex}
-        textLength={letters.length}
-      />
+      <div className={style.monitorScreen}>
+        <div className={style.monitorApp}>
+          <div className={style.monitorAppPanel}>
+            <FaLaptopCode className={style.panelIcon} size={12} />
+            <FaTimes className={style.panelIcon} size={12} />
+          </div>
+          <div className={style.monitorAppContent}>
+            <LeftPanel />
+            <div className={style.monitorAppContentRight}>
+              <p className={style.monitorAppContentCode}>
+                <span>{'<'}</span>p class<span>{'='}</span>
+                <span className={style.monitorAppContentCodeSpan}>
+                  "textArea"
+                </span>
+                <span>{'>'}</span>
+              </p>
+              <TextTable
+                errorIndex={errorIndex}
+                currentIndex={currentIndex}
+                letters={letters}
+              />
+              <p className={style.monitorAppContentCode}>
+                <span>{'</'}</span>p<span>{'>'}</span>
+              </p>
+              <div className={style.monitorAppBottom}>
+                <ErrorsPercent
+                  textLength={letters.length}
+                  errorsCount={errorsCount}
+                />
+                <PrintSpeedTimer
+                  currentTime={currentTime}
+                  startTime={startTime}
+                  currentIndex={currentIndex}
+                  textLength={letters.length}
+                />
+              </div>
+              <div className={style.monitorConsolePanel}>
+                <p>PROBLEMS</p>
+                <p>OUTPUT</p>
+                <p>DEBUG CONSOLE</p>
+                <p>TERMINAL</p>
+                <p>PORTS</p>
+                <p>GITLENS</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <SreenPanel />
+      </div>
       <div className={style.monitorHull}></div>
-      <div className={style.monitorBottom}></div>
+      <div className={style.monitorBottom}>
+        <div className={style.monitorLogo}>
+          <FaCode className={style.logoIcon} size={36} />
+          <p>Zyxce</p>
+        </div>
+        <div className={style.monitorBottomBtn}></div>
+        <div className={style.monitorBottomNull}></div>
+      </div>
+      <div className={style.monitorStand}></div>
+      <div className={style.monitorStandBottom1}></div>
+      <div className={style.monitorStandBottom2}></div>
     </div>
   )
 }

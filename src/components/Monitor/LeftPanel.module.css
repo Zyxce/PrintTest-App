@@ -1,0 +1,24 @@
+.monitorAppContentLeft {
+  width: 100px;
+  height: 100%;
+  border-right: 1px solid #353535;
+}
+.monitorAppContentLeft .monitorAppContentLeftItem {
+  display: flex;
+  padding: 5px 0;
+  border-bottom: 1px solid #353535;
+}
+.monitorAppContentLeft .monitorAppContentLeftItem .panelIcon {
+  margin-left: 5px;
+}
+.monitorAppContentLeft .monitorAppContentLeftItem p {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-size: 0.6rem;
+  margin: 0 5px;
+  color: white;
+}
+.monitorAppContentLeft .monitorAppContentLeftItem:first-child {
+  background-color: #353535;
+}/*# sourceMappingURL=LeftPanel.module.css.map */

@@ -10,7 +10,7 @@ const ErrorsPercent: React.FC<IProps> = ({ textLength, errorsCount }) => {
   return (
     <div className={style.errorContainer}>
       <p className={style.errorText}>
-        Процент букв без ошибок: {errorsPercent}%
+        Percentage without errors: <span>{errorsPercent}%</span>
       </p>
     </div>
   )

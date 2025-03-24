@@ -3,10 +3,12 @@
     --rot-x: 25deg
     --rot-y: 0deg
     display: flex
+    width: 500px
+    margin: 0 auto
     flex-direction: column
     align-items: center
     padding: 1rem
-    background: #1e1e1e
+    background: #181818
     border-radius: 10px
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5)
     margin-top: 100px
@@ -15,29 +17,5 @@
 .keyboardRow
     display: flex
     margin: 5px 0
-
-.key
-    display: flex
-    justify-content: center
-    align-items: center
-    width: 30px
-    height: 30px
-    background: #333
-    color: white
-    font-size: 1.2rem
-    font-weight: bold
-    border-radius: 5px
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3)
-    transition: all 0.2s ease-in-out
-    cursor: pointer
-
-    &:hover
-        background: #444
-
-    &.activeKey
-        background: #1e90ff
-        transform: scale(1.1)
-        box-shadow: 0 4px 8px rgba(30, 144, 255, 0.5)
-
-.spaceKey
-    width: 200px
+    width: 500px
+    gap: 5px

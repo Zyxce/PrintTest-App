@@ -1,0 +1,9 @@
+.errorContainer {
+  margin-left: 40px;
+}
+.errorContainer .errorText {
+  color: #2f75f7;
+}
+.errorContainer .errorText span {
+  color: #bf5ff3;
+}/*# sourceMappingURL=ErrorsPercent.module.css.map */

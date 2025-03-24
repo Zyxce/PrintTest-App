@@ -37,7 +37,9 @@ const PrintSpeedTimer: React.FC<IProps> = ({
 
   return (
     <div className={style.timerContainer}>
-      <p className={style.timerText}>Символов в минуту: {currentCPM}</p>
+      <p className={style.timerText}>
+        Characters per minute: <span>{currentCPM}</span>
+      </p>
     </div>
   )
 }

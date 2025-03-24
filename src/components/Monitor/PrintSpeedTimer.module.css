@@ -1,0 +1,9 @@
+.timerContainer {
+  margin-left: auto;
+}
+.timerContainer .timerText {
+  color: #3AC9A2;
+}
+.timerContainer .timerText span {
+  color: #e06a34;
+}/*# sourceMappingURL=PrintSpeedTimer.module.css.map */

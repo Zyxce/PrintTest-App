@@ -14,7 +14,7 @@ interface IProps {
 
 const TextTable: React.FC<IProps> = ({ letters, errorIndex, currentIndex }) => {
   return (
-    <div>
+    <div className={style.textContainer}>
       {letters.map((letter, index) => {
         const isActive: boolean = index < currentIndex
         const onFocus: boolean = index === currentIndex

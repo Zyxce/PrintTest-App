@@ -1,0 +1,21 @@
+.textContainer {
+  width: 600px;
+  margin: 10px auto 10px auto;
+}
+.textContainer span {
+  font-size: 1.1rem;
+  color: white;
+}
+.textContainer .onFocus {
+  color: white;
+  background-color: green;
+  border-radius: 6px;
+}
+.textContainer .isActive {
+  color: green;
+}
+.textContainer .isError {
+  color: white;
+  background-color: red;
+  border-radius: 6px;
+}/*# sourceMappingURL=TextTable.module.css.map */

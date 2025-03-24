@@ -1,0 +1,73 @@
+[
+  [
+    { "key": "Esc", "color": "orange", "width": "30px" },
+    { "key": "1", "color": "white", "width": "30px" },
+    { "key": "2", "color": "white", "width": "30px" },
+    { "key": "3", "color": "white", "width": "30px" },
+    { "key": "4", "color": "white", "width": "30px" },
+    { "key": "5", "color": "white", "width": "30px" },
+    { "key": "6", "color": "white", "width": "30px" },
+    { "key": "7", "color": "white", "width": "30px" },
+    { "key": "8", "color": "white", "width": "30px" },
+    { "key": "9", "color": "white", "width": "30px" },
+    { "key": "0", "color": "white", "width": "30px" },
+    { "key": "-", "color": "white", "width": "30px" },
+    { "key": "=", "color": "white", "width": "30px" },
+    { "key": "Backspace", "color": "grey", "width": "50px" }
+  ],
+  [
+    { "key": "Tab", "color": "grey", "width": "40px" },
+    { "key": "Q", "color": "white", "width": "30px" },
+    { "key": "W", "color": "white", "width": "30px" },
+    { "key": "E", "color": "white", "width": "30px" },
+    { "key": "R", "color": "white", "width": "30px" },
+    { "key": "T", "color": "white", "width": "30px" },
+    { "key": "Y", "color": "white", "width": "30px" },
+    { "key": "U", "color": "white", "width": "30px" },
+    { "key": "I", "color": "white", "width": "30px" },
+    { "key": "O", "color": "white", "width": "30px" },
+    { "key": "P", "color": "white", "width": "30px" },
+    { "key": "[", "color": "white", "width": "30px" },
+    { "key": "]", "color": "white", "width": "30px" },
+    { "key": "\\", "color": "grey", "width": "40px" }
+  ],
+  [
+    { "key": "Caps Lock", "color": "grey", "width": "50px" },
+    { "key": "A", "color": "white", "width": "30px" },
+    { "key": "S", "color": "white", "width": "30px" },
+    { "key": "D", "color": "white", "width": "30px" },
+    { "key": "F", "color": "white", "width": "30px" },
+    { "key": "G", "color": "white", "width": "30px" },
+    { "key": "H", "color": "white", "width": "30px" },
+    { "key": "J", "color": "white", "width": "30px" },
+    { "key": "K", "color": "white", "width": "30px" },
+    { "key": "L", "color": "white", "width": "30px" },
+    { "key": ";", "color": "white", "width": "30px" },
+    { "key": "'", "color": "white", "width": "30px" },
+    { "key": "Enter", "color": "green", "width": "60px" }
+  ],
+  [
+    { "key": "Shift", "color": "yellow", "width": "60px" },
+    { "key": "Z", "color": "white", "width": "30px" },
+    { "key": "X", "color": "white", "width": "30px" },
+    { "key": "C", "color": "white", "width": "30px" },
+    { "key": "V", "color": "white", "width": "30px" },
+    { "key": "B", "color": "white", "width": "30px" },
+    { "key": "N", "color": "white", "width": "30px" },
+    { "key": "M", "color": "white", "width": "30px" },
+    { "key": ",", "color": "white", "width": "30px" },
+    { "key": ".", "color": "white", "width": "30px" },
+    { "key": "/", "color": "white", "width": "30px" },
+    { "key": "LShift", "color": "yellow", "width": "90px" }
+  ],
+  [
+    { "key": "Ctrl", "color": "red", "width": "30px" },
+    { "key": "Win", "color": "violet", "width": "30px" },
+    { "key": "Alt", "color": "blue", "width": "30px" },
+    { "key": "Space", "color": "darkgrey", "width": "240px" },
+    { "key": "LAlt", "color": "blue", "width": "30px" },
+    { "key": "Fn", "color": "cyan", "width": "30px" },
+    { "key": "DOC", "color": "violet", "width": "30px" },
+    { "key": "LCtrl", "color": "red", "width": "30px" }
+  ]
+]

@@ -1,0 +1,41 @@
+.key {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  background: #181818;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid hsla(0, 0%, 25%, 0.2);
+  box-shadow: -5px -5px 10px hsla(0, 0%, 100%, 0.01), -2px -2px 6px hsla(0, 0%, 100%, 0.03), 2px 2px 5px hsla(0, 0%, 0%, 0.3), 5px 5px 10px hsla(0, 0%, 0%, 0.3);
+  transition: all 0.1s ease-in-out;
+  cursor: pointer;
+}
+.key:hover {
+  border-color: var(--hover-color);
+  transform: translateY(-4px);
+}
+.key.activeKey {
+  transform: translateY(4px);
+  box-shadow: 0 4px 8px var(--active-color);
+}
+
+.keyDesign {
+  width: 100%;
+  height: 8px;
+  margin: 0 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 3px 0.5px var(--hover-color), -5px -5px 10px hsla(0, 0%, 100%, 0.01), -2px -2px 6px hsla(0, 0%, 100%, 0.03), 2px 2px 5px hsla(0, 0%, 0%, 0.3), 5px 5px 10px hsla(0, 0%, 0%, 0.3);
+}
+
+.spaceKey {
+  width: 200px;
+}
+
+.active {
+  background: #4CAF50 !important;
+  transform: translateY(2px);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}/*# sourceMappingURL=Key.module.css.map */

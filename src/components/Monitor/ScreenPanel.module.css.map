@@ -1,0 +1,1 @@
+{"version":3,"sources":["ScreenPanel.module.sass","ScreenPanel.module.css"],"names":[],"mappings":"AAAA;EACI,kBAAA;EACA,SAAA;EACA,OAAA;EACA,WAAA;EACA,YAAA;EACA,yBAAA;EACA,aAAA;EACA,mBAAA;ACCJ;ADAI;EACI,cAAA;ACER;ADDQ;EACI,YAAA;ACGZ;ADFI;EACI,cAAA;EACA,aAAA;ACIR;ADHQ;EACI,yBAAA;ACKZ;ADJI;EACI,kBAAA;EACA,YAAA;EACA,iBAAA;EACA,QAAA;EACA,cAAA;ACMR","file":"ScreenPanel.module.css"}
